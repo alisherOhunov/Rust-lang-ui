@@ -1,0 +1,582 @@
+/* navigation selection */
+body
+{
+    margin: 0px;
+    margin-top: 0;
+    font-family: sans-serif;
+    max-width: 1000%;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo
+{
+    width: 90px;
+    justify-content: flex-start;
+    margin-right: auto;
+    
+}
+.navigation ul li 
+{
+    display: inline;  
+    color: black;
+}
+.navigation ul li a
+{
+    color: black;
+    padding-right:  22px;
+    padding-left: 22px;
+    font-size: 18px;
+   
+}
+.language_select
+{
+    height: 25px;
+    width: 170px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.navigation select
+{
+    font-size: 18px;
+}
+/* ending navigation */
+/* starting main section */
+.main-section
+{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header_main
+{
+  
+    display: flex;
+    align-content: flex-start;
+}
+
+.header_left
+{
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.header_left h1
+{
+    font-size: 6rem;
+    margin: 0px; 
+    font-family: "Alfa Slab One",cursive;
+    font-weight: normal;
+}
+
+.header_left p
+{
+    font-size: 35px;
+}
+.header_button 
+{
+    background-color: #ffc832;
+    text-decoration: none;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 90px; 
+    display: block; 
+    text-decoration:  none;
+    color: black;
+    font-size: 25px;
+    width: 320px;
+    height: 80px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.header_button:hover
+{
+    border: 0.5px solid black;
+    
+}
+.version 
+{
+    margin-left: 165px;
+    margin-top: 15px;
+    font-size: 25px; 
+    display: block;
+    color: #4299bf;
+}
+/* why rust section  */
+.why-rust-main
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.why_rust
+{
+    background-color: #0b7261;
+    color: white;
+}
+.why_rust_title
+{
+    text-decoration: underline;
+}
+.why-rust-main h2
+{
+    /* font-size: 30px; */
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.why-rust-title
+{
+    padding-top: 15px;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+ .title-underline
+{
+    border: 6px solid darkblue;
+    width:180px;
+    border-radius: 3px;
+    margin-top: -30px;
+    padding-left: -10;
+    background-color: darkblue;
+
+}
+.why_rust p
+{
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+/* ending why rust */
+/* starting build rust section */
+.build-rust
+{
+    background-color: #2e2459;
+    
+    color: white;
+}
+.build-rust p
+{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.build-rust img
+{
+    width: 100px;
+    margin-left: 80px;
+}
+.build-rust .build-rust-top h2
+{
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
+    
+}
+.build-rust-main
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.build-rust-main h2
+{
+    color: white;
+    text-align: center;
+}
+.build-rust-title-underline
+{
+    border: 6px solid #a72145;
+    width:280px;
+    border-radius: 3px;
+    margin-left: -10px;
+    background-color: #a72145;
+}  
+.build-rust button
+{
+    width: 100%;
+    height: 40px;
+    background-color: #a72145;
+    border: 2px solid #a72145;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 40px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    font-family:'Fira Sans', sans-serif ;
+}
+.build-rust button a
+{
+    color: white;
+    text-decoration: none;
+}
+.build-rust-main button:hover
+{
+    border: 1px solid white;
+}
+.networking p
+{
+    margin-bottom: 40px;
+}
+.embedded button
+{
+    height: 60px;
+    margin-top: 20px;
+}
+/* ending build rust section */
+
+/* starting rust in production  */
+.rust-in-production h2
+{
+    margin: 0px;
+    padding-top: 20px;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
+}
+.rust-in-production .rust-in-production-title-underline
+{
+    border: 6px solid #ffc832;
+    width:320px;
+    border-radius: 3px;
+    margin-left: -40px;
+    background-color: #ffc832;
+}
+.rust-in-production-top p
+{
+    font-size: 27px;
+}
+.rust-in-production-middle
+{
+    margin-top: 60px;
+}
+.rust-in-production-middle .quoted
+{
+    font-size: 27px;
+    border-bottom:1px black dotted;
+    position: relative;
+    margin-left: 40px;
+    width: 62%;
+    
+}
+.rust-in-production-top a
+{
+    color: black;
+}
+.rust-in-production-middle .quoted::before
+{
+    content: "“";
+    color: #2a3439;
+    font-size: 3em;
+    position: absolute;
+    left: -50px;
+    top: 20px; 
+}
+.rust-in-production img
+{
+    width: 250px;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+.flex img
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.author
+{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px black dotted;
+    padding-bottom: 30px;
+}
+.rust-in-production-bottom .quoted
+{
+    font-size: 26px;
+    margin-right: 20px;
+    padding-top: 30px;
+    position: relative;
+    border-bottom: 1px black dotted; 
+    margin-top: -15px;
+}
+.rust-in-production-bottom img
+{
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.rust-in-production-bottom .quoted::before
+{
+    content: "“";
+    color: #2a3439;
+    font-size: 3em;
+    position: absolute;
+    left: -50px;
+    top: 20px; 
+}
+.rust-in-production-bottom .author
+{
+    text-align: right;
+    border-bottom: none;
+  
+}
+.rust-in-production-bottom button
+{
+    width: 1150px;
+    height: 50px;
+    background-color: #ffc832;
+    border-color: #ffc832;
+    color: #2a3439;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px  #ffc832 ;
+    margin-bottom: 50px;
+}
+.rust-in-production-bottom button a
+{
+    color: #2a3439;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 70px;  
+}
+.rust-in-production-bottom button:hover
+{
+    border: 1px solid black;
+}
+/* ending rust in production section  */
+/* get involved starting  section*/
+.get-involved
+{
+    background-color: #a72145;
+    color: white;
+}
+.get-involved-main
+{
+    display: flex;
+    justify-content: space-between;
+}.get-involved-title h2
+{
+   
+    margin: 0px;
+    padding-top: 35px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px; 
+}
+.get-involved-title-underline
+{
+    background-color: #2e2459;
+    border: 5px solid #2e2459;
+    width: 230px;
+    border-radius: 3px;
+    margin-left: -10px;
+}
+.get-involved-main h2
+{
+    font-size: 28px;
+}
+.get-involved-main p
+{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+}
+.get-involved button a
+{
+   
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block; 
+    text-decoration:  none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 4px;
+    letter-spacing: 1px;
+}
+.get-involved button
+{
+    border: 1px solid #2e2459; 
+    background-color: #2e2459;
+    border-radius: 3px ;
+    width: 100%;
+    height: 38px
+}
+.get-involved-right
+{
+    margin-left: 20px;
+}
+.get-involved button:hover
+{
+    border: 1px solid white;
+}
+.get-involved-bottom h2
+{
+    font-size: 28px;
+}
+.get-involved-bottom p
+{
+    font-size: 18px;
+}
+.get-involved-bottom
+{
+    padding-bottom: 40px;
+}
+
+
+/* ending get involved section */
+/* starting thanks section */
+.thanks-title h2
+{
+    font-size: 38px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    margin-top: 30px;
+}
+.thanks-title-underline
+{
+    background-color: #ffc832;
+    border: 5px solid #ffc832;
+    width: 150px;
+    margin-left: -10px;
+    border-radius: 3px;
+}
+.thanks-title p
+{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+.thanks-main
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.thanks-main h2
+{
+    font-size: 27px;
+}
+.thanks-main p
+{
+    font-size: 19px;
+    line-height: 28px;
+}
+.thanks-main button 
+{
+    border: 1px solid #ffc832; 
+    background-color: #ffc832;
+    border-radius: 3px ;
+    width: 100%;
+    height: 38px
+}
+.thanks-main button a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block; 
+    text-decoration:  none;
+    color: #2a3439;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 4px;
+    letter-spacing: 1px;
+}
+.thanks-main button:hover
+{
+    border: 1px solid black;
+}
+/* ending thanks section */
+
+/* starting footer section */
+footer 
+{
+    background-color: #2a3439;
+    color: white;
+}
+.footer-main
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main h2
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer img
+{
+    width: 40px;
+    padding-right: 10px;
+}
+footer ul
+{
+    padding: 0px;
+}
+footer ul li
+{
+    padding-bottom: 20px;
+    color: white;
+}
+footer li 
+{
+    list-style-type: none; 
+}
+footer li a
+{
+    text-decoration: none;
+    color: #ffc832;
+    font-size: 20px;
+}
+footer a:hover
+{
+    text-decoration: underline;
+}
+.terms-and-policies
+{
+    margin-right: 40px;
+}
+.social
+{
+    margin-right: 140px;
+}
+.footer-bottom
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 30px;
+}
+.footer-bottom p a
+{
+    color: #ffc832;
+    text-decoration: none;
+}
+#lang
+{
+    margin:0px;
+}
+.footer-bottom p a:hover
+{
+    text-decoration: underline;
+}
+/* ending footer section */
+
+
